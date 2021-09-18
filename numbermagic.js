@@ -3,8 +3,18 @@
 /*Comment Example 2*/ 
 
 //Step 1: Prompt the user to enter a whole a whole number, than convert that string value into an integer.
-const number = parseInt(prompt("Type a whole number."));
+let number = parseInt(prompt("Type a whole number."));
+//Step 1.2: Check if the input is valid
+while (isNaN(number))
+    {
+        number = parseInt(prompt("I'm sorry, please enter a number."));
+    }
 
+
+
+
+
+            //-- At this point it should be confirmed if the number entered is indeed a whole number, if not than prompt again.
 //Step 2: Perfrom the calculations ( For the sake of displaying each step of the process on the webpage, I made a variable to hold each step.)
 const step1 = number + 9;
 const step2 = step1 * 2;

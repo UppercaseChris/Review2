@@ -7,12 +7,9 @@
     }
 body
     {
-        background-color: yellow;
+        background-color: blanchedalmond;
     }
-li
-    {
 
-    }
 ul
     {
         padding-left: 0;
@@ -52,6 +49,8 @@ a:visited
         border-style: solid;
         border-color:black;
         border-width: 4px;
+        margin-right: 2em;
+        margin-bottom: 1em;
     }
 #nav
     {
